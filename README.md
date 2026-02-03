@@ -5,8 +5,6 @@
 ## Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on New York Airbnb data to uncover trends and patterns in rental listings. We use libraries like **Pandas, Numpy, Matplotlib, Seaborn**for cleaning, visualization, and analysis. 
 
-![](https://github.com/najirh/Python-Project-P2-New-York-AirBnb-Listing-2024/blob/main/New-York-City-Brooklyn-Bridge-Panorama-Juergen-Roth-2.jpg)
-
 ---
 
 ## Objective
@@ -55,15 +53,8 @@ The dataset contains **20,765 entries and 22 features**, including:
    - Used **histograms** to show the distribution of prices.
    - Majority of the listings were priced between **$50 - $300**.
 
-5. **Host listings**:
-   - Analyzed hosts with multiple listings using **boxplots** to identify key contributors.
-
-6. **Review behavior**:
-   - Used **pair plots** to show relationships between number of reviews, price, and availability.
-
 ### 3. Data Visualization
-- **Pairplot**: To see correlations among `price`, `availability`, and `number of reviews`.
-- **Heatmap**: Showing correlations among numerical features.
+
 - **Histograms and Boxplots**: To detect outliers in `price`.
 - **Bar Charts**: Displaying room types and neighborhood group distributions.
 
@@ -80,45 +71,10 @@ The dataset contains **20,765 entries and 22 features**, including:
 3. **Outliers in Price**:  
    - Few listings priced at **$10,000+** were detected, indicating the need to filter such extreme values.
 
-4. **Availability Patterns**:  
-   - Listings with **high availability** tend to have lower prices and more reviews, likely due to better guest experience.
-
-5. **Host Behavior**:  
-   - Some hosts manage **multiple listings**, indicating a trend toward professional hosting.
-
----
-
-## How to Run This Project
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/najirh/Python-Project-P2-New-York-AirBnb-Listing-2024.git
-   ```
-2. Install the required libraries:
-   ```bash
-   pip install pandas numpy matplotlib seaborn
-   ```
-3. Run the **Jupyter notebook** or **Python script**:
-   ```bash
-   jupyter notebook day23_airbnb_eda.ipynb
-   ```
-
----
-
-## Recommendations
-- **For Guests**: 
-   - Look for listings with high availability and good reviews for a better experience.
-   - **Private rooms** in Brooklyn offer affordable stays compared to Manhattan.
-
-- **For Hosts**:  
-   - Improve **availability** and **review response rates** to attract more bookings.
-   - Manage pricing effectively to compete within the borough's market.
-
----
-
 ## Future Work
 - Use **machine learning** to predict prices based on room type and location.
 - Perform **sentiment analysis** on reviews to better understand guest experiences.
-- Create an **interactive dashboard** using Plotly or Tableau for live monitoring.
+- Create an **interactive dashboard** using Plotly or Powerbi for live monitoring.
 
 ---
 
@@ -127,15 +83,3 @@ This project offers valuable insights into the New York Airbnb market, helping b
 
 ---
 
-## License
-This project is open-source and licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use and modify the code.
-
----
-
-## Contact
-For any queries, feel free to reach out at:
-- **YouTube**: [@Zero_Analyst](https://www.youtube.com/@Zero_Analyst)  
-- **GitHub**: [Your GitHub](https://github.com/your-repo)  
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/your-profile)  
-
----
